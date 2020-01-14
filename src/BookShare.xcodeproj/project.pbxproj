@@ -15,6 +15,10 @@
 		F11C100C23CE2F8400CF88FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11C100A23CE2F8400CF88FF /* LaunchScreen.storyboard */; };
 		F11C101723CE2F8400CF88FF /* BookShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11C101623CE2F8400CF88FF /* BookShareTests.swift */; };
 		F11C102223CE2F8400CF88FF /* BookShareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11C102123CE2F8400CF88FF /* BookShareUITests.swift */; };
+		F11C103123CE321100CF88FF /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11C103023CE321100CF88FF /* Book.swift */; };
+		F11C103623CE35E500CF88FF /* BookContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11C103523CE35E500CF88FF /* BookContentView.swift */; };
+		F11C103823CE360900CF88FF /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11C103723CE360900CF88FF /* BookListView.swift */; };
+		F11C103A23CE361A00CF88FF /* BookDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11C103923CE361A00CF88FF /* BookDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		F11C101D23CE2F8400CF88FF /* BookShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F11C102123CE2F8400CF88FF /* BookShareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookShareUITests.swift; sourceTree = "<group>"; };
 		F11C102323CE2F8400CF88FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F11C103023CE321100CF88FF /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		F11C103523CE35E500CF88FF /* BookContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookContentView.swift; sourceTree = "<group>"; };
+		F11C103723CE360900CF88FF /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
+		F11C103923CE361A00CF88FF /* BookDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,8 @@
 		F11C0FFE23CE2F8200CF88FF /* BookShare */ = {
 			isa = PBXGroup;
 			children = (
+				F11C103223CE34BA00CF88FF /* View */,
+				F11C102F23CE31EB00CF88FF /* Class */,
 				F11C0FFF23CE2F8200CF88FF /* AppDelegate.swift */,
 				F11C100123CE2F8200CF88FF /* SceneDelegate.swift */,
 				F11C100323CE2F8200CF88FF /* ContentView.swift */,
@@ -134,6 +144,24 @@
 				F11C102323CE2F8400CF88FF /* Info.plist */,
 			);
 			path = BookShareUITests;
+			sourceTree = "<group>";
+		};
+		F11C102F23CE31EB00CF88FF /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				F11C103023CE321100CF88FF /* Book.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		F11C103223CE34BA00CF88FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F11C103523CE35E500CF88FF /* BookContentView.swift */,
+				F11C103723CE360900CF88FF /* BookListView.swift */,
+				F11C103923CE361A00CF88FF /* BookDetailsView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F11C103123CE321100CF88FF /* Book.swift in Sources */,
+				F11C103A23CE361A00CF88FF /* BookDetailsView.swift in Sources */,
+				F11C103823CE360900CF88FF /* BookListView.swift in Sources */,
+				F11C103623CE35E500CF88FF /* BookContentView.swift in Sources */,
 				F11C100023CE2F8200CF88FF /* AppDelegate.swift in Sources */,
 				F11C100223CE2F8200CF88FF /* SceneDelegate.swift in Sources */,
 				F11C100423CE2F8200CF88FF /* ContentView.swift in Sources */,

@@ -23,6 +23,7 @@
 		F11C103623CE35E500CF88FF /* BookContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11C103523CE35E500CF88FF /* BookContentView.swift */; };
 		F11C103823CE360900CF88FF /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11C103723CE360900CF88FF /* BookListView.swift */; };
 		F11C103A23CE361A00CF88FF /* BookDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11C103923CE361A00CF88FF /* BookDetailsView.swift */; };
+		F11C103E23CE4C3D00CF88FF /* QGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11C103D23CE4C3D00CF88FF /* QGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		F11C103523CE35E500CF88FF /* BookContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookContentView.swift; sourceTree = "<group>"; };
 		F11C103723CE360900CF88FF /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
 		F11C103923CE361A00CF88FF /* BookDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsView.swift; sourceTree = "<group>"; };
+		F11C103D23CE4C3D00CF88FF /* QGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		F11C0FFE23CE2F8200CF88FF /* BookShare */ = {
 			isa = PBXGroup;
 			children = (
+				F11C103C23CE4C1200CF88FF /* Component */,
 				F11C103223CE34BA00CF88FF /* View */,
 				F11C102F23CE31EB00CF88FF /* Class */,
 				F11C0FFF23CE2F8200CF88FF /* AppDelegate.swift */,
@@ -174,6 +177,14 @@
 				F11C103923CE361A00CF88FF /* BookDetailsView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F11C103C23CE4C1200CF88FF /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				F11C103D23CE4C3D00CF88FF /* QGrid.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +323,7 @@
 				1BE1855323CE2CD50024EEBC /* LoanView.swift in Sources */,
 				F11C103823CE360900CF88FF /* BookListView.swift in Sources */,
 				1BE1855423CE2CD50024EEBC /* MessageView.swift in Sources */,
+				F11C103E23CE4C3D00CF88FF /* QGrid.swift in Sources */,
 				1BE1855223CE2CD50024EEBC /* NotificationView.swift in Sources */,
 				1BE1855723CE2CF20024EEBC /* AppTabView.swift in Sources */,
 				F11C103623CE35E500CF88FF /* BookContentView.swift in Sources */,

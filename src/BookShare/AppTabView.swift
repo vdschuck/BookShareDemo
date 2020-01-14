@@ -13,6 +13,10 @@ struct AppTabView: View {
                 NavigationView {
                     MessageView()
                         .navigationBarTitle("Mensagens")
+                        .navigationBarItems(trailing:
+                            Button(action: { print("Nova mensagem") }) {
+                                Image(systemName: "square.and.pencil")
+                        })
                 }.tabItem {
                     Image(systemName: "message")
                     Text("Mensagens")

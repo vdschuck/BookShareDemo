@@ -16,10 +16,9 @@ struct BookContentView: View {
             VStack {
                 Text(self.book.title)
                     .bold()
-                    .lineLimit(15)
-                    .lineSpacing(5)
                     .multilineTextAlignment(.center)
-                    .frame(width: 200, height: nil, alignment: .center)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .frame(width: 150, height: nil, alignment: .center)
                     .font(.system(size: 20))
                     
                 

@@ -8,6 +8,7 @@ struct BookContentView: View {
         VStack {
             Image(self.book.image.isEmpty ? "book/book_default" : self.book.image[0])
                 .resizable()
+                .renderingMode(.original)
                 .frame(width: 140, height: 140, alignment: .center)
                 .cornerRadius(10)
                 .padding(.horizontal, 15)

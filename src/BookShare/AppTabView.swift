@@ -6,6 +6,10 @@ struct AppTabView: View {
                 NavigationView {
                     BookListView()
                         .navigationBarTitle("Livros")
+                        .navigationBarItems(trailing:
+                            Button(action: { print("Filtrar") }) {
+                                Image(systemName: "line.horizontal.3.decrease")
+                        })
                 }.tabItem {
                     Image(systemName: "book")
                     Text("Livros")

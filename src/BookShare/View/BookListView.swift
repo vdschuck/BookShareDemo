@@ -10,7 +10,9 @@ struct BookListView: View {
     
     var body: some View {
         QGrid(books, columns: 2) { item in
-            BookContentView(book: item)
+            NavigationLink(destination: BookDetailsView(book: item)) {
+                BookContentView(book: item)
+            }
         }
     }
 }

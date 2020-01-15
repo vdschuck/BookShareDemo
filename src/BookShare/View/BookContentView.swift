@@ -6,18 +6,22 @@ struct BookContentView: View {
     
     var body: some View {
         VStack {
-            Image(self.book.image.isEmpty ? "book/book_default" : self.book.image[0])
+            Image(self.book.image.isEmpty ? "book/book_default" : "book/\(self.book.image[0])")
                 .resizable()
                 .renderingMode(.original)
-                .frame(width: 140, height: 140, alignment: .center)
+                .frame(width: 100, height: 140, alignment: .center)
                 .cornerRadius(10)
                 .padding(.horizontal, 15)
             
             VStack {
                 Text(self.book.title)
                     .bold()
-                    .frame(width: UIScreen.main.bounds.width/1.0, height: nil, alignment: .center)
+                    .lineLimit(15)
+                    .lineSpacing(5)
+                    .multilineTextAlignment(.center)
+                    .frame(width: 200, height: nil, alignment: .center)
                     .font(.system(size: 20))
+                    
                 
                 Text(self.book.author)
                     .foregroundColor(.gray)

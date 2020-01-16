@@ -12,6 +12,8 @@
 		1BE1855423CE2CD50024EEBC /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1855023CE2CD40024EEBC /* MessageView.swift */; };
 		1BE1855523CE2CD50024EEBC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1855123CE2CD50024EEBC /* ProfileView.swift */; };
 		1BE1855723CE2CF20024EEBC /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1855623CE2CF20024EEBC /* AppTabView.swift */; };
+		DB19EDA923D0F08300BB0D67 /* FieldComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB19EDA823D0F08300BB0D67 /* FieldComponent.swift */; };
+		DBBED3DD23D0EEAC00747688 /* ImageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBED3DC23D0EEAC00747688 /* ImageComponent.swift */; };
 		F11C100023CE2F8200CF88FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11C0FFF23CE2F8200CF88FF /* AppDelegate.swift */; };
 		F11C100223CE2F8200CF88FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11C100123CE2F8200CF88FF /* SceneDelegate.swift */; };
 		F11C100623CE2F8400CF88FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11C100523CE2F8400CF88FF /* Assets.xcassets */; };
@@ -49,6 +51,8 @@
 		1BE1855023CE2CD40024EEBC /* MessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		1BE1855123CE2CD50024EEBC /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		1BE1855623CE2CF20024EEBC /* AppTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		DB19EDA823D0F08300BB0D67 /* FieldComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldComponent.swift; sourceTree = "<group>"; };
+		DBBED3DC23D0EEAC00747688 /* ImageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageComponent.swift; sourceTree = "<group>"; };
 		F11C0FFC23CE2F8200CF88FF /* BookShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F11C0FFF23CE2F8200CF88FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F11C100123CE2F8200CF88FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -182,7 +186,9 @@
 		F11C103C23CE4C1200CF88FF /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				DBBED3DC23D0EEAC00747688 /* ImageComponent.swift */,
 				F11C103D23CE4C3D00CF88FF /* QGrid.swift */,
+				DB19EDA823D0F08300BB0D67 /* FieldComponent.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -322,6 +328,8 @@
 				F11C103A23CE361A00CF88FF /* BookDetailsView.swift in Sources */,
 				1BE1855323CE2CD50024EEBC /* LoanView.swift in Sources */,
 				F11C103823CE360900CF88FF /* BookListView.swift in Sources */,
+				DB19EDA923D0F08300BB0D67 /* FieldComponent.swift in Sources */,
+				DBBED3DD23D0EEAC00747688 /* ImageComponent.swift in Sources */,
 				1BE1855423CE2CD50024EEBC /* MessageView.swift in Sources */,
 				F11C103E23CE4C3D00CF88FF /* QGrid.swift in Sources */,
 				1BE1855223CE2CD50024EEBC /* NotificationView.swift in Sources */,

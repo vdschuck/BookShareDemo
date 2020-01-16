@@ -14,17 +14,16 @@ struct AvatarView: View {
                     .foregroundColor(.blue)
                     .font(.system(size: 14))
             }.buttonStyle(PlainButtonStyle())
-        }//.background(Color(UIColor.lightGray))
-            .frame(width: UIScreen.main.bounds.width)
+        }.frame(width: UIScreen.main.bounds.width)
     }
 }
 
 struct ProfileView: View {
     
-    @State private var options = ["Opção 1", "Opção 2", "Opção 3"]
+    @State private var options = ["Conta", "Meus Favoritos", "Ajuda", "Sair"]
     
     init() {
-        UITableView.appearance().separatorColor = .clear
+        //UITableView.appearance().separatorColor = .clear
     }
     
     var body: some View {
@@ -35,6 +34,6 @@ struct ProfileView: View {
                     Text(self.options[i])
                 }
             }
-        }
+        }.listStyle(GroupedListStyle())
     }
 }

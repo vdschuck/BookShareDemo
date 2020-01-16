@@ -193,7 +193,11 @@
 			children = (
 				DBBED3DC23D0EEAC00747688 /* ImageComponent.swift */,
 				F11C103D23CE4C3D00CF88FF /* QGrid.swift */,
+<<<<<<< HEAD
+				DB19EDA823D0F08300BB0D67 /* FieldComponent.swift */,
+=======
 				F11C103F23D0D13D00CF88FF /* Filters.swift */,
+>>>>>>> 1cef7137eaad3d8b3ca9f5571846c54f9bae7622
 			);
 			path = Component;
 			sourceTree = "<group>";

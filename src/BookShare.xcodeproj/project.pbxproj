@@ -24,6 +24,8 @@
 		F11C103823CE360900CF88FF /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11C103723CE360900CF88FF /* BookListView.swift */; };
 		F11C103A23CE361A00CF88FF /* BookDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11C103923CE361A00CF88FF /* BookDetailsView.swift */; };
 		F11C103E23CE4C3D00CF88FF /* QGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11C103D23CE4C3D00CF88FF /* QGrid.swift */; };
+		F11C104023D0D13D00CF88FF /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11C103F23D0D13D00CF88FF /* Filters.swift */; };
+		F11C104223D0D6F100CF88FF /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11C104123D0D6F100CF88FF /* Filter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		F11C103723CE360900CF88FF /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
 		F11C103923CE361A00CF88FF /* BookDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsView.swift; sourceTree = "<group>"; };
 		F11C103D23CE4C3D00CF88FF /* QGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QGrid.swift; sourceTree = "<group>"; };
+		F11C103F23D0D13D00CF88FF /* Filters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filters.swift; sourceTree = "<group>"; };
+		F11C104123D0D6F100CF88FF /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				F11C103023CE321100CF88FF /* Book.swift */,
+				F11C104123D0D6F100CF88FF /* Filter.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -183,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				F11C103D23CE4C3D00CF88FF /* QGrid.swift */,
+				F11C103F23D0D13D00CF88FF /* Filters.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -323,7 +329,9 @@
 				1BE1855323CE2CD50024EEBC /* LoanView.swift in Sources */,
 				F11C103823CE360900CF88FF /* BookListView.swift in Sources */,
 				1BE1855423CE2CD50024EEBC /* MessageView.swift in Sources */,
+				F11C104023D0D13D00CF88FF /* Filters.swift in Sources */,
 				F11C103E23CE4C3D00CF88FF /* QGrid.swift in Sources */,
+				F11C104223D0D6F100CF88FF /* Filter.swift in Sources */,
 				1BE1855223CE2CD50024EEBC /* NotificationView.swift in Sources */,
 				1BE1855723CE2CF20024EEBC /* AppTabView.swift in Sources */,
 				F11C103623CE35E500CF88FF /* BookContentView.swift in Sources */,

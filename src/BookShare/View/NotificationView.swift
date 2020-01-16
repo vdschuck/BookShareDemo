@@ -10,11 +10,6 @@ struct NotificationItem : View {
     @Binding var notification : Notification
     var body: some View {
         HStack {
-            //            Image("icon")
-            //                .resizable()
-            //                .frame(width: 80, height: 80, alignment: .center)
-            //                .cornerRadius(20)
-            //            Spacer()
             VStack {
                 Text(notification.title)
                     .bold()
@@ -26,19 +21,22 @@ struct NotificationItem : View {
                     .frame(width: UIScreen.main.bounds.width/2.0, height: nil, alignment: .leading)
             }.frame(alignment: .center)
             Spacer()
-            Image(systemName: "circle.fill")
-                .foregroundColor(.blue)
+            if !self.notification.isRead {
+                Image(systemName: "circle.fill")
+                    .foregroundColor(.blue)
+            }
         }.padding(20)
             .onTapGesture {
-                if self.notification.isRead {
-                    self.notification.isRead = false
+                if !self.notification.isRead {
+                    self.notification.isRead = true
                 }
         }
     }
 }
 
 struct NotificationView: View {
-    @State private var notifications : [Notification] = [Notification(title: "Teste", description: "voce recebeu um teste")]
+    @State private var notifications : [Notification] = [Notification(title: "Teste", description: "voce recebeu um teste"),
+    Notification(title: "Teste", description: "voce recebeu um teste")]
     var body: some View {
         ScrollView {
             VStack {

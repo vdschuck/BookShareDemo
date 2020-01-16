@@ -34,12 +34,14 @@ struct ChatItem : View {
                     .frame(width: UIScreen.main.bounds.width/2.0, height: nil, alignment: .leading)
             }.frame(alignment: .center)
             Spacer()
-            Image(systemName: "circle.fill")
-                .foregroundColor(.blue)
+            if !self.chat.isRead {
+                Image(systemName: "circle.fill")
+                    .foregroundColor(.blue)
+            }
         }.padding(20)
             .onTapGesture {
-                if self.chat.isRead {
-                    self.chat.isRead = false
+                if !self.chat.isRead {
+                    self.chat.isRead = true
                 }
         }
     }
